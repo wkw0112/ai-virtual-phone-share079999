@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T16:15:22.533Z",
+  "generatedAt": "2026-10-24T16:20:30.973Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -8310,16 +8310,35 @@
       "type": "dir",
       "path": "资源/线上聊天状态栏/MINDLINK掌机by雪球",
       "files": [
-        "资源/线上聊天状态栏/MINDLINK掌机by雪球/Float-MINDLINKby雪球.zip"
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-粉色-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-粉色by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-紫色-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-紫色by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-经典-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-经典by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-蓝色-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-蓝色by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-薄巧-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-薄巧by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-黑白灰-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-黑白灰by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-黑色-精简by雪球.json",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/MINDLINK掌机-黑色by雪球.json"
       ],
       "images": [
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0410.jpeg",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0411.jpeg",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0412.jpeg",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0413.jpeg",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0414.jpeg",
+        "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0415.jpeg",
         "资源/线上聊天状态栏/MINDLINK掌机by雪球/IMG_0416.jpeg"
       ],
       "description": "MINDLINK掌机by雪球\n右边按键主导向前向后翻页，左边按键控制查看条目与页面上下翻页。\n第一页是状态栏，LOVE DESIRE SAN数值会关系到后续心声的表达。\n第二页是道具栏ITEM，有身边能够碰到的客观物理道具，也有当下场景构造出的心理道具，有状态说明与影响效果。\n第三页是任务QUEST，会有状态说明告诉你这件任务的进度，以及影响效果。\n第四页是自问INNER，一层会比一层深入，很适合内心戏足或者嘴硬心软的人。\n第五页第六页是LOG/SAVE，LOG是表面，能够给他人看见的，SAVE是私心与各种不便于表露的。\n第七页以后IF线，捕捉当下的一种情绪，以此展开一段平行世界的故事。\n\n\n提示词是会出现比较露骨的，需要绿化版本可以自行二改自用。\n颜色做了七种，颜色，字体，字号等等都可以二改自用。\n有完整版和精简版，完整版可能大概7k token，不是一个准确的数字，可以按需选择。",
       "author": "雪球",
       "avatar": "",
-      "ownerHash": "bb0af15c8ecd57e66093c8b225f91085ca077728194748e470af42f01ff6955e",
-      "updatedAt": "2026-10-25T01:13:58+09:00"
+      "ownerHash": "c09acf7dfcceae8c2d60d434a607f20641ae46e857af5fefad247ca3cdaafd94",
+      "updatedAt": "2026-10-25T01:17:04+09:00"
     },
     {
       "folder": "线上聊天状态栏",
