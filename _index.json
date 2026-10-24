@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T06:50:29.468Z",
+  "generatedAt": "2026-10-24T08:46:55.990Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -29,7 +29,7 @@
     },
     {
       "name": "剧情预设及正则",
-      "count": 14
+      "count": 15
     },
     {
       "name": "小剧场",
@@ -2994,6 +2994,24 @@
       "avatar": "资源/剧情预设及正则/[闪光]自习室app专用预设/.avatar.png",
       "ownerHash": "2233a90444598bea29bf22080ecbb781b6ee3b9a382b190a4154d678f27c2b2a",
       "updatedAt": "2026-09-03T12:26:58+08:00"
+    },
+    {
+      "folder": "剧情预设及正则",
+      "name": "《This World》1.0【Float ver】",
+      "dirName": "《This World》1.0【Float ver】",
+      "type": "dir",
+      "path": "资源/剧情预设及正则/《This World》1.0【Float ver】",
+      "files": [
+        "资源/剧情预设及正则/《This World》1.0【Float ver】/This World【Float】1.0————by我是树.json"
+      ],
+      "images": [
+        "资源/剧情预设及正则/《This World》1.0【Float ver】/4805.png"
+      ],
+      "description": "《This World》预设Float版本～偏重活人感！\n使用时根据需要的板块打开～食用愉快！❤️",
+      "author": "我是树",
+      "avatar": "",
+      "ownerHash": "f9eb374b4a27ed2bb764b37367d62e17bfd0ea3b4a6530e6966d58309a830024",
+      "updatedAt": "2026-10-24T17:44:56+09:00"
     },
     {
       "folder": "剧情预设及正则",
