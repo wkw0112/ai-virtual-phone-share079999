@@ -14,7 +14,8 @@ const API = "https://api.github.com";
 const RESOURCE_ROOT = "资源";
 
 // 防滥用限制
-const MAX_FILES = 12;
+const MAX_FILES = 30;
+const BLOB_CONCURRENCY = 5;             // 并发传 blob，文件多时也压在函数时限内
 const MAX_FILE_B64 = 4 * 1024 * 1024;   // 单文件 base64 后 ≤4MB
 const MAX_TOTAL_B64 = 5 * 1024 * 1024;  // 单次提交总量 ≤5MB（Netlify 请求体上限 6MB）
 const MAX_TEXT = 4000;
@@ -157,14 +158,21 @@ async function commitFiles(token, owner, repo, branch, message, writes, deletes 
     if (writes.length === 0 && deletes.length === 0) return;
 
     // blob 不动分支，先一次性传完；下面重试时这些 sha 可以直接复用。
-    const entries = [];
-    for (const item of writes) {
-        const blob = await gh(token, "POST", `/repos/${owner}/${repo}/git/blobs`, {
-            content: item.contentBase64.replace(/[\r\n]/g, ""),
-            encoding: "base64",
-        });
-        entries.push({ path: item.path, mode: "100644", type: "blob", sha: blob.sha });
-    }
+    // 逐个串行传，30 个文件会顶到函数时限，所以开 BLOB_CONCURRENCY 个并发通道，结果按原顺序放回。
+    const entries = new Array(writes.length);
+    let next = 0;
+    const worker = async () => {
+        while (next < writes.length) {
+            const index = next++;
+            const item = writes[index];
+            const blob = await gh(token, "POST", `/repos/${owner}/${repo}/git/blobs`, {
+                content: item.contentBase64.replace(/[\r\n]/g, ""),
+                encoding: "base64",
+            });
+            entries[index] = { path: item.path, mode: "100644", type: "blob", sha: blob.sha };
+        }
+    };
+    await Promise.all(Array.from({ length: Math.min(BLOB_CONCURRENCY, writes.length) }, worker));
     // 树里 sha 置空表示删除。调用方只塞确实存在的路径，否则 GitHub 会整棵树报错。
     for (const path of deletes) {
         entries.push({ path, mode: "100644", type: "blob", sha: null });
