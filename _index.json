@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T11:30:00.968Z",
+  "generatedAt": "2026-10-24T12:39:30.522Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -37,7 +37,7 @@
     },
     {
       "name": "应用",
-      "count": 150
+      "count": 151
     },
     {
       "name": "应用bug改善",
@@ -5075,6 +5075,24 @@
       "avatar": "资源/应用/抖音/.avatar.png",
       "ownerHash": "fb962c4fceef95a258ac55e1fab9a3cb0bd1440197814a757957ec7d3234aa5e",
       "updatedAt": "2026-10-01T09:39:44+08:00"
+    },
+    {
+      "folder": "应用",
+      "name": "捏捏小人",
+      "dirName": "捏捏小人",
+      "type": "dir",
+      "path": "资源/应用/捏捏小人",
+      "files": [
+        "资源/应用/捏捏小人/empathy.doll-1.1.0.zip"
+      ],
+      "images": [
+        "资源/应用/捏捏小人/1000044513.jpg"
+      ],
+      "description": "共感小人大概）就是点击对应的部位有反馈和心声可以看，纯xp放出拷打工坊做的，有bug的话可以反馈我修修看[笑脸]",
+      "author": "梵笙",
+      "avatar": "资源/应用/捏捏小人/.avatar.png",
+      "ownerHash": "06cdb479dbf65ae94e474109d88a05a4c37ff5c37b50e8e45d192aa3d1909b5f",
+      "updatedAt": "2026-10-24T21:37:57+09:00"
     },
     {
       "folder": "应用",
