@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T16:24:32.153Z",
+  "generatedAt": "2026-10-25T02:34:02.648Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -29,7 +29,7 @@
     },
     {
       "name": "剧情预设及正则",
-      "count": 15
+      "count": 16
     },
     {
       "name": "小剧场",
@@ -2976,6 +2976,22 @@
       "avatar": "",
       "ownerHash": "ccaecc009bf4a4f670f01f93005ebb7e60c8d958fe2449025a41e1609ae3e4cd",
       "updatedAt": "2026-09-06T14:55:16+08:00"
+    },
+    {
+      "folder": "剧情预设及正则",
+      "name": "This World【Float】1.5修正ver—————by我是树",
+      "dirName": "This World【Float】1.5修正ver—————by我是树",
+      "type": "dir",
+      "path": "资源/剧情预设及正则/This World【Float】1.5修正ver—————by我是树",
+      "files": [
+        "资源/剧情预设及正则/This World【Float】1.5修正ver—————by我是树/This World【Float】1.5修正ver—————by我是树.json"
+      ],
+      "images": [],
+      "description": "1.5修正版！！支持无情舍弃1.0，1.0完全呆瓜了…..板块缺失，对不起使用了的大家🧎‍♀️！！",
+      "author": "我是树",
+      "avatar": "",
+      "ownerHash": "f9eb374b4a27ed2bb764b37367d62e17bfd0ea3b4a6530e6966d58309a830024",
+      "updatedAt": "2026-10-25T11:32:22+09:00"
     },
     {
       "folder": "剧情预设及正则",
