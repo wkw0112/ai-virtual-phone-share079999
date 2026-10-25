@@ -1,7 +1,7 @@
 {
   "schema": "ai_phone_share_index",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T04:10:06.422Z",
+  "generatedAt": "2026-10-25T04:34:46.183Z",
   "folders": [
     {
       "name": "A 重要须知（自部署版请查看）",
@@ -37,7 +37,7 @@
     },
     {
       "name": "应用",
-      "count": 151
+      "count": 152
     },
     {
       "name": "应用bug改善",
@@ -6174,6 +6174,22 @@
       "avatar": "资源/应用/青提相馆🎀/.avatar.png",
       "ownerHash": "bbb29644acf889478950632a8475ec71b84fdb1141f1c81ad7c7b51712fffef7",
       "updatedAt": "2026-09-26T14:04:37+08:00"
+    },
+    {
+      "folder": "应用",
+      "name": "预设缝合器",
+      "dirName": "预设缝合器",
+      "type": "dir",
+      "path": "资源/应用/预设缝合器",
+      "files": [
+        "资源/应用/预设缝合器/1_preset-merge.zip"
+      ],
+      "images": [],
+      "description": "一个简陋的预设缝合器，显示上有点小 bug 但不影响使用，懒得改了，凑合用吧\n\n\n[星星]使用须知：\n1.禁止二传或改后二传其他老师的预设\n2.有老师明确规定不能二改的，禁止二改使用\n​3.禁止商用\n4.尊重所有老师的产出",
+      "author": "阿巴阿巴",
+      "avatar": "",
+      "ownerHash": "669c2f4579605edead26c25df83e951ce159584320de5f4d54d4ef156aa46539",
+      "updatedAt": "2026-10-25T13:32:57+09:00"
     },
     {
       "folder": "应用",
